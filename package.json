@@ -1,0 +1,29 @@
+{
+  "name": "pokefolder",
+  "version": "1.0.3",
+  "main": "index.js",
+  "bin": {
+    "pokefolder": "./index.js"
+  },
+  "type": "module",
+  "preferGlobal": true,
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "AI",
+    "Google Gemini",
+    "folder analysis",
+    "CLI tool"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "description": "A CLI tool that analyzes folder contents using Google Gemini AI",
+  "dependencies": {
+    "@google/generative-ai": "^0.21.0",
+    "chalk": "^5.4.1",
+    "dotenv": "^16.4.7",
+    "fs-extra": "^11.3.0"
+  }
+}
